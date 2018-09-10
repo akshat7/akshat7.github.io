@@ -22,3 +22,17 @@ contact:
   words: Feel free to shoot me an email
   class: m6 contact
   border: contact
+blog:
+  baseurl: "" 
+  url: https://medium.com/@akshat7
+  heading: Blog
+  words: Check out my Medium Blog.
+  class: m7 blog
+  border: blog
+blog2:
+  baseurl: "" 
+  url: https://medium.com/@akshat7
+  heading: Blog
+  words: Check out my Medium Blog.
+  class: m5 contact
+  border: contact

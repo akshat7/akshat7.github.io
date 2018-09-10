@@ -7,14 +7,15 @@ $color2: #f46036;
 $color3: #2e294e;
 $color4: #8e5572;
 
-$color6: #292929;
+$color6: #222222;
 
 $text-color: #eff2ef;
 
 $modal-text: #fcf5c7;
 
 $dark-grey: #292929;
-$background-color: #fcf5c7;
+// $background-color: #fcf5c7;
+$background-color: #ffffff;
 
 $cover-color: #f9f0ae;
 
@@ -520,4 +521,19 @@ nav a.button-collapse i {
       width: 50%;
     }
   }
+}
+
+.inLineList{
+   display: flex;
+   flex-direction: row;
+   /* Below sets up your display method: flex-start|flex-end|space-between|space-around */
+   justify-content: flex-start; 
+   /* Below removes bullets and cleans white-space */
+   list-style: none;
+   padding: 0;
+   /* Bonus: forces no word-wrap */
+   white-space: nowrap;
+}
+li{
+  padding: 20px;
 }
