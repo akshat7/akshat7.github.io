@@ -291,7 +291,8 @@
     padding: 0px; }
   #homepage .home_heading {
     font-family: "Josefin Slab", serif;
-    font-size: 4rem; }
+    font-size: 4rem;
+    font-weight: bold; }
   #homepage .row {
     margin: 0;
     z-index: 10; }
@@ -299,14 +300,18 @@
     background-image: url("/assets/images/me.jpg");
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2);
-    transition: box-shadow 0.6s linear; }
+    transition: box-shadow 0.6s linear;
+    font-weight: bold; }
+  #homepage .about:hover {
+    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.9); }
   #homepage .projects {
     box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2);
     transition: box-shadow 0.6s linear;
     background-image: url("/assets/images/projects.jpg");
-    background-size: cover; }
+    background-size: cover;
+    font-weight: bold; }
   #homepage .projects:hover {
-    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2); }
+    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.9); }
   #homepage .contact a {
     margin-left: 10px; }
   #homepage .contact a:hover {
@@ -315,31 +320,34 @@
     box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2);
     transition: box-shadow 0.6s linear;
     background-image: url("/assets/images/resume.jpg");
-    background-size: cover; }
+    background-size: cover;
+    font-weight: bold; }
   #homepage .algorithms:hover {
     background-color: #443c72;
-    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2); }
+    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.9); }
   #homepage .contact {
     background-image: url("/assets/images/contact.jpg");
     box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2);
     transition: box-shadow 0.6s linear;
-    background-size: cover; }
+    background-size: cover;
+    font-weight: bold; }
   #homepage .contact:hover {
-    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2); }
+    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.9); }
   #homepage .blog {
     background-image: url("/assets/images/contact1.jpg");
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2);
-    transition: box-shadow 0.6s linear; }
+    transition: box-shadow 0.6s linear;
+    font-weight: bold; }
   #homepage .blog:hover {
-    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.2); }
+    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.9); }
   #homepage .profile_picture {
     border-radius: 35%; }
   #homepage .words {
     font-size: 1.3rem;
     letter-spacing: +2px;
     font-family: "Raleway", sans-serif;
-    font-weight: 100; }
+    font-weight: bold; }
   #homepage li {
     display: inline-block; }
   @media all and (max-height: 600px) {
@@ -558,7 +566,7 @@ nav {
   margin-bottom: 100px; }
 
 nav ul li a {
-  font-weight: 600;
+  font-weight: bold;
   color: black; }
 
 .projects_container {
@@ -587,7 +595,7 @@ nav ul li {
 
 .heading {
   color: #292929;
-  font-weight: 200px;
+  font-weight: bold;
   font-size: 2.3rem;
   font-family: "Josefin Slab", serif; }
 
@@ -604,7 +612,7 @@ nav ul li {
 
 .quote {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: bold;
   text-indent: 15%;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif; }
@@ -624,7 +632,7 @@ nav ul li {
   font-size: 1.5rem;
   color: #292929;
   font-style: "Raleway", sans-serif;
-  font-weight: 200;
+  font-weight: bold;
   margin-left: 10px; }
 
 .my_container {
@@ -654,14 +662,15 @@ nav ul li {
 
 .footer_titles {
   font-family: "Josefin Slab", serif;
-  font-size: 35px; }
+  font-size: 35px;
+  font-weight: bold; }
 
 .footer_icons {
   font-size: 30px !important; }
 
 .footer_description_link {
   color: #eff2ef;
-  font-weight: 300;
+  font-weight: bold;
   font-style: italic;
   transition: color 0.5s linear; }
 
@@ -670,16 +679,16 @@ nav ul li {
 
 .footer_link_text {
   font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 20px; }
 
 .about_me_links {
   color: black;
-  font-weight: 200;
+  font-weight: bold;
   font-style: italic; }
 
 .about_me_links:hover {
-  font-weight: 300; }
+  font-weight: bolder; }
 
 #email_modal {
   background-color: #292929;
@@ -802,7 +811,7 @@ button.fill:hover:before {
   color: #fcf5c7;
   letter-spacing: +1px;
   font-family: "Raleway", sans-serif;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 1.1rem; }
 
 .cover {
@@ -867,7 +876,7 @@ button.fill:hover:before {
 .about_paragraph {
   font-size: 1.8em;
   letter-spacing: +0.5px;
-  font-weight: 200; }
+  font-weight: normal; }
 
 /* label color */
 .input-field label {

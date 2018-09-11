@@ -56,7 +56,7 @@ nav {
 }
 
 nav ul li a {
-  font-weight: 600;
+  font-weight: bold;
   color: black;
 }
 
@@ -91,7 +91,7 @@ nav ul li {
 
 .heading {
   color: $dark-grey;
-  font-weight: 200px;
+  font-weight: bold;
   font-size: 2.3rem;
   font-family: $font1;
 }
@@ -112,7 +112,7 @@ nav ul li {
 
 .quote {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: bold;
   text-indent: 15%;
   margin-bottom: 0;
   font-family: $font2;
@@ -135,7 +135,7 @@ nav ul li {
   font-size: 1.5rem;
   color: $dark-grey;
   font-style: $font2;
-  font-weight: 200;
+  font-weight: bold;
   margin-left: 10px;
 }
 
@@ -173,6 +173,7 @@ nav ul li {
 .footer_titles {
   font-family: $font1;
   font-size: 35px;
+  font-weight: bold;
 }
 
 .footer_icons {
@@ -181,7 +182,7 @@ nav ul li {
 
 .footer_description_link {
   color: $text_color;
-  font-weight: 300;
+  font-weight: bold;
   font-style: italic;
   transition: color 0.5s linear;
 }
@@ -192,18 +193,18 @@ nav ul li {
 
 .footer_link_text {
   font-family: $font2;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 20px;
 }
 
 .about_me_links {
   color: black;
-  font-weight: 200;
+  font-weight: bold;
   font-style: italic;
 }
 
 .about_me_links:hover {
-  font-weight: 300;
+  font-weight: bolder;
 }
 
 #email_modal {
@@ -359,7 +360,7 @@ button.fill:hover:before {
   color: $modal-text;
   letter-spacing: +1px;
   font-family: $font2;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 1.1rem;
 }
 
@@ -436,7 +437,7 @@ button.fill:hover:before {
 .about_paragraph {
   font-size: 1.8em;
   letter-spacing: +0.5px;
-  font-weight: 200;
+  font-weight: normal;
 }
 
 /* label color */

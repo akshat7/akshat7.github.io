@@ -3,7 +3,12 @@ layout: default
 ---
 
 <div id="homepage">
+
   <div class="row top-row">
+    {% include index.html %}
+  </div>
+
+  <div class="row">
     {% include box.html section=site.data.sections.about %}
     {% include box.html section=site.data.sections.projects %}
   </div>
@@ -12,7 +17,6 @@ layout: default
     {% include box.html section=site.data.sections.contact %}
   </div>
   <div class="row">
-      {% include box.html section=site.data.sections.blog2 %}
       {% include box.html section=site.data.sections.blog %}
     </div>
 </div>

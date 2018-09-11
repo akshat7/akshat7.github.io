@@ -1,6 +1,6 @@
 function initializeScripts(){
   // $( document ).tooltip();
-
+  // $(document).scrollTop(0);
   $('.materialboxed').materialbox();
   $(".button-collapse").sideNav({
     menuWidth: 200,
@@ -145,7 +145,7 @@ function initializeScripts(){
       $('#scroll-top').css('display', 'none');
     }
   })
-
+  // $(document).scrollTop(0);
   $('#scroll-top').click((e)=>{
     e.preventDefault();
     $("html, body").animate({ scrollTop: 0 }, 250);
