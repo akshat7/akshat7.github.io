@@ -26,11 +26,12 @@
         <div class="col s3 m2 info_type">
           skills:
         </div>
-        <div class="col s9 m10">
-          {% for tech in project.technologies %}
-            <i class="devicon-{{tech}} project_icons"></i>
-          {% endfor %}
-        </div>
+        <!-- <div class="col s9 m10"> -->
+          <!-- {% for tech in project.technologies %} -->
+            <!-- <i class="devicon-{{tech}} project_icons"></i> -->
+        <p class="description col s9 m10">{{project.technologies}}</p>
+          <!-- {% endfor %} -->
+        <!-- </div> -->
       </div>
     </div>
   </div>
