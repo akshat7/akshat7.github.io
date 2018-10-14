@@ -2,7 +2,7 @@
   title: Threat Intelligence Dashboard
   # url: https://tic-or-treat.herokuapp.com/
   github_url: https://github.com/akshat7/Threat-Dashboard
-  description: A simple tic-tac-toe game allowing both registered and unregistered users to play against a computer. Logged-in users have the benefit of viewing various statistics about their past games and resuming unfinished games.
+  description: The Threat Intelligence Dashboard displays a statistical analysis of threats from the area of cyber security in a carefully and logically compartmentalized sections. It is possible to see risks in areas of malware, communication with blacklisted addresses, and other possible threats.
   technologies: Built using Python, Elasticsearch, Logstash, Kibana.
   # technologies: [
   #                 html5-plain,
