@@ -629,7 +629,7 @@ nav ul li {
   font-size: 3rem; }
 
 .skill_names {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #292929;
   font-style: "Raleway", sans-serif;
   font-weight: bold;
@@ -785,7 +785,7 @@ button:focus {
 
 button.fill:hover {
   background-color: transparent;
-  color: #f9f0ae; }
+  color: #eeec; }
 
 button.fill:before {
   content: "";
@@ -815,7 +815,7 @@ button.fill:hover:before {
   font-size: 1.1rem; }
 
 .cover {
-  background-color: #f9f0ae;
+  background-color: #eeec;
   width: 40%;
   height: 100%;
   margin: 0;
@@ -874,9 +874,10 @@ button.fill:hover:before {
   filter: sepia(0.3); }
 
 .about_paragraph {
-  font-size: 1.8em;
+  font-size: 1.4em;
   letter-spacing: +0.5px;
-  font-weight: normal; }
+  font-weight: normal;
+  font-family: "Lora", serif; }
 
 /* label color */
 .input-field label {
@@ -960,5 +961,9 @@ nav a.button-collapse i {
 
 li {
   padding: 20px; }
+
+#heyiam {
+  color: #ffffff;
+  font-size: 1.75vw; }
 
 /*# sourceMappingURL=main.css.map */
