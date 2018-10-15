@@ -16,12 +16,18 @@ resume:
   words: Do check out my GitHub and LinkedIn Profiles too.
   class: m6 algorithms
   border: algorithms
-contact:
-  url: /contact
-  heading: Contact
-  words: Feel free to shoot me an email.
+contact: # This is actually photoblog. Used the contact class as the base class, and removed contact cuz it was not needed.
+  baseurl: "" 
+  url: https://www.instagram.com/beauty.in.every.thing/
+  heading: Photography Blog
+  words: Trying my hand on photography.<br/>Follow me if you find my snaps interesting!
   class: m6 contact
   border: contact
+  # url: /contact
+  # heading: Contact
+  # words: Feel free to shoot me an email.
+  # class: m6 contact
+  # border: contact
 blog:
   baseurl: "" 
   url: https://medium.com/@akshat7
@@ -29,6 +35,14 @@ blog:
   words: Check out my Medium Blog.
   class: m12 blog
   border: blog
+
+# photoblog:
+#   baseurl: "" 
+#   url: https://www.instagram.com/beauty.in.every.thing/
+#   heading: Photography Blog
+#   words: Trying my hand on photography. Follow me if you find my snaps interesting!
+#   class: m7 photoblog
+#   border: photoblog
 # blog2:
 #   baseurl: "" 
 #   url: https://medium.com/@akshat7
