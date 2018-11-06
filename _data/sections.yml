@@ -18,7 +18,7 @@ resume:
   border: algorithms
 contact: # This is actually photoblog. Used the contact class as the base class, and removed contact cuz it was not needed.
   baseurl: "" 
-  url: https://www.instagram.com/beauty.in.every.thing/
+  url: https://www.instagram.com/akshat_agr/
   heading: Photography Blog
   words: Trying my hand on photography.<br/>Follow me if you find my snaps interesting!
   class: m6 contact
@@ -33,16 +33,16 @@ blog:
   url: https://medium.com/@akshat7
   heading: Blog
   words: Check out my Medium Blog.
-  class: m12 blog
+  class: m5 blog
   border: blog
 
-# photoblog:
-#   baseurl: "" 
-#   url: https://www.instagram.com/beauty.in.every.thing/
-#   heading: Photography Blog
-#   words: Trying my hand on photography. Follow me if you find my snaps interesting!
-#   class: m7 photoblog
-#   border: photoblog
+youtubeprofile:
+  baseurl: "" 
+  url: https://www.youtube.com/channel/UCN_TRop8k75IFYxOOgPaA5Q/
+  heading: YouTube Channel
+  words: I love reciting poetry on YouTube.
+  class: m7 youtubeprofile
+  border: youtubeprofile
 # blog2:
 #   baseurl: "" 
 #   url: https://medium.com/@akshat7
